@@ -37,7 +37,7 @@ class SafeSpaceApp extends StatefulWidget {
 }
 
 class _SafeSpaceAppState extends State<SafeSpaceApp> {
-  bool _isLoading = true;
+  bool _isLoading = false;
 
   @override
   void initState() {
